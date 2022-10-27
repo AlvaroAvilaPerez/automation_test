@@ -16,10 +16,14 @@ npm install cypress --save-dev
 npx cypress open
 ```
 
-3.1 Click on E2E Testing
-3.2 Select a browser i.e. Chrome
-3.3 Click 'Start E2E Testing in Chrome'
-3.4 In the opened window click on 'social_media_redirection' and test case will execute
+    3.1 Click on E2E Testing
+
+    3.2 Select a browser i.e. Chrome
+
+    3.3 Click 'Start E2E Testing in Chrome'
+
+    3.4 In the opened window click on 'social_media_redirection' and test case will execute
+
 
 4. If you want to run in headless mode
 
