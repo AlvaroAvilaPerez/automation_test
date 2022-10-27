@@ -4,7 +4,7 @@
 
 ## Installation
 
-2. Install [Cypress](https://www.cypress.io/); that's your first step.
+2. Install [Cypress](https://www.cypress.io/)
 
 ```bash
 npm install cypress --save-dev
