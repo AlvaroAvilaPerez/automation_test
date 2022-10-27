@@ -9,7 +9,7 @@ const youtube_insider_url = 'https://www.youtube.com/user/businessinsider'
 const instagram_insider_url = 'https://www.instagram.com/businessinsider/'
 const navigationDrawerObjects = new NavigationDrawerObjects()
 
-context('Navigation', () => {
+context('Social Media Redirection', () => {
   beforeEach(() => {
     cy.visit(url)
   })
