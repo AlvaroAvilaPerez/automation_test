@@ -14,7 +14,7 @@ context('Social Media Redirection', () => {
     cy.visit(url)
   })
 
-  it('Verify Social Media Navigation to Facebook - Businessinsider', () => {
+  it('Verify Social Media Redirection to Facebook - Businessinsider', () => {
 
     cy.get(navigationDrawerObjects.hamburgerButton()).trigger('mouseover')
     cy.get(navigationDrawerObjects.hamburgerButton()).click()
@@ -24,7 +24,7 @@ context('Social Media Redirection', () => {
     cy.get(navigationDrawerObjects.facebookIcon()).invoke('attr', 'target').should('eq', "_blank")    
   }),
   
-  it('Verify Social Media Navigation to Twitter - Businessinsider', () => {
+  it('Verify Social Media Redirection to Twitter - Businessinsider', () => {
 
     cy.get(navigationDrawerObjects.hamburgerButton()).trigger('mouseover')
     cy.get(navigationDrawerObjects.hamburgerButton()).click()
@@ -34,7 +34,7 @@ context('Social Media Redirection', () => {
     cy.get(navigationDrawerObjects.twitterIcon()).invoke('attr', 'target').should('eq', "_blank")
   }),
   
-  it('Verify Social Media Navigation to Linkedin - Businessinsider', () => {
+  it('Verify Social Media Redirection to Linkedin - Businessinsider', () => {
     cy.get(navigationDrawerObjects.hamburgerButton()).trigger('mouseover')
     cy.get(navigationDrawerObjects.hamburgerButton()).click()
     cy.get(navigationDrawerObjects.drawerComponent()).scrollTo('bottom')
@@ -43,7 +43,7 @@ context('Social Media Redirection', () => {
     cy.get(navigationDrawerObjects.linkedinIcon()).invoke('attr', 'target').should('eq', "_blank")
   }),
   
-  it('Verify Social Media Navigation to Youtube - Businessinsider', () => {
+  it('Verify Social Media Redirection to Youtube - Businessinsider', () => {
 
     cy.get(navigationDrawerObjects.hamburgerButton()).trigger('mouseover')
     cy.get(navigationDrawerObjects.hamburgerButton()).click()
@@ -53,7 +53,7 @@ context('Social Media Redirection', () => {
     cy.get(navigationDrawerObjects.youtubeIcon()).invoke('attr', 'target').should('eq', "_blank")
   }),
 
-  it('Verify Social Media Navigation to Instagram - Businessinsider', () => {
+  it('Verify Social Media Redirection to Instagram - Businessinsider', () => {
 
     cy.get(navigationDrawerObjects.hamburgerButton()).trigger('mouseover')
     cy.get(navigationDrawerObjects.hamburgerButton()).click()
